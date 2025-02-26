@@ -1,0 +1,116 @@
+/* Background panel */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://via.placeholder.com/1500x1000') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-image: url('truck.png');
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: flex-start;  /* Aligns the content to the top */
+    background-color: #000000;  /* Example background color */
+    font-family: Arial, sans-serif;
+
+
+}
+h1 {
+    color: white;  /* Text color */
+    font-size: 3em;  /* Example font size */
+    margin-top: 20px;  /* Add some space from the top */
+}
+
+/* Panel container */
+.panel {
+    background-color: rgba(95, 160, 181, 0.85);
+    padding: 30px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    position: absolute; /* Make the panel absolute so it can be moved around the screen */
+    top: 10%; /* Align the panel to the top of the page */
+    left: 2%; /* Position the panel horizontally in the center */
+    text-align: center;
+}
+
+/* Button styling */
+.btn {
+    background-color: #808080; /* Initial grey */
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Button hover effect */
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* More info icon styling */
+.more-info {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* Tooltip styling */
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #e0d2d2;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-container {
+    position: relative;
+    display: inline-block;
+    /* Button styling */
+.btn {
+    background-color: #808080; /* Initial grey */
+    color: rgb(255, 255, 255);
+    border: 2px solid #333;  /* Add a border with a color and width */
+    padding: 15px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Button active (clicked) color change */
+.btn.clicked {
+    background-color: #4CAF50; /* Green */
+}
+.h1 {
+    position: absolute;
+    top: 0;  /* Align to the top of the page */
+    left: 50%;  /* Center horizontally */
+    transform: translateX(-50%);  /* Offset by 50% of its own width to perfectly center */
+    color: white;  /* Text color */
+    font-size: 3em;  /* Example font size */
+}
+}

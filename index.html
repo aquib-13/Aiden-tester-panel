@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AiDEN Tester Panel</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+
+<body>
+    <h1>AiDEN Testers Panel</h1>
+    <div class="panel">
+        <div class="btn-container">
+            <button class="btn" id="btn-uninstall">
+                Uninstall
+                <span class="more-info" id="info-uninstall">ℹ️</span>
+            </button>
+            <div class="tooltip" id="tooltip-uninstall">Using this button you dont have to type cmd "adb uninstall com.aidenabled.car.dev" everytime if you want to uninstall app.</div>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn" id="btn-allow-permissions">
+                Allow Permissions
+                <span class="more-info" id="info-permissions">ℹ️</span>
+            </button>
+            <div class="tooltip" id="tooltip-permissions">Using this button you dont have to type cmd "adb shell appops set com.aidenabled.car REQUEST_INSTALL_PACKAGES allow" everytime if you want to grant permissions to update app.</div>
+                
+        </div>
+
+        <div class="btn-container">
+            <button class="btn" id="btn-reboot">
+                Reboot Emulator
+                <span class="more-info" id="info-reboot">ℹ️</span>
+            </button>
+            <div class="tooltip" id="tooltip-reboot">Reboot the emulator for changes to take effect.</div>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+
+</body>
+</html>
